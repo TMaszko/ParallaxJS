@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Paralaxy</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .fixed{
+            min-height: 50vh;
+            width: 100wv;
+        }
+        
+        .paralax{
+            min-height: 30vh;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        .img-1{
+            background-image: url(https://images.unsplash.com/photo-1460400408855-36abd76648b9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1c9fc275d85ee05c6e64f09eff62b363);
+        }
+        
+        .img-2{
+            background-image: url(https://images.unsplash.com/reserve/unsplash_52ce2b0530dab_1.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=fbc452cf6c1d6921779ef531f2e53c0d);
+        }
+        
+        .img-3{
+            background-image: url(https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7bd13db3b64ce66833f51169e9e6e5e5);
+        }
+    </style>
+</head>
+<body>
+   
+   <section class="fixed"></section>
+   <section class="paralax img-1"></section>
+   
+   <section class="fixed"></section>
+   <section class="paralax img-2"></section>
+       
+   <section class="fixed"></section>
+   <section class="paralax img-3"></section>
+   
+   <section class="fixed"></section>
+   
+</body>
+</html>
